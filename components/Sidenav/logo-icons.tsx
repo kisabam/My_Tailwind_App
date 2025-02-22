@@ -1,7 +1,9 @@
+import Image from 'next/image';
+
 export default function Logo() {
 return (
     <div className="flex justify-between p-4 mb-5">
-        <img src="/images/logo.svg" className="w-[50px] h-[32px] me-3 mt-1"/>
+        <Image src={'/images/logo.svg'} alt={'Logo Picture'} className="w-[50px] h-[32px] me-3 mt-1" width={500} height={500}/>
         <div className="relative mt-2">
             <button className="relative mx-2">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor"
