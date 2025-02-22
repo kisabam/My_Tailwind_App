@@ -31,20 +31,42 @@ body {
   box-shadow: 0 4px 20px rgba(255, 255, 255, 0.5); */
   background-color: #111729;
 }
+
+
+/* Sidebar Scroll Bar */
 .scrollbar-thin::-webkit-scrollbar {
   width: 8px;
 }
-
 .scrollbar-thin::-webkit-scrollbar-track {
   background: #111729;
 }
-
 .scrollbar-thin::-webkit-scrollbar-thumb {
-  background: #000; /* Color of the scrollbar thumb */
+  background: #000; 
   border-radius: 10px; 
-  border: 1px solid rgb(56, 56, 56)/* Rounded corners for the thumb */
+  border: 1px solid rgb(97, 97, 97)
+}
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  width: 10px;
 }
 
-.scrollbar-thin::-webkit-scrollbar-thumb:hover {
-  background: #555; /* Color of the thumb on hover */
+
+/* Navigation Dropdown Arrow Animation */
+details > summary .chevron1, .chevron2, .chevron3 {
+  transition: transform 0.3s ease;
 }
+details[open] > summary .chevron1 {
+  transform: rotate(180deg);
+}
+details[open] > summary .chevron2 {
+  transform: rotate(180deg);
+}
+details[open] > summary .chevron3 {
+  transform: rotate(180deg);
+}
+
+/* Dropdown Subtitle Hover */
+.level-0:hover p {
+  color: #f3f4f6;
+}
+

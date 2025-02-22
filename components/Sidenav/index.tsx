@@ -1,8 +1,7 @@
-import Application from "./application";
-import Dashboard from "./dashboard";
+import Dashboard from "./dashboard/";
 import Logo from "./logo-icons";
-import Dashboard_Menu from "./dashboard-menu";
 import Profile from "./profile";
+import Navigation from "./navigation";
 
 export default function Sidebar() {
     return (
@@ -11,13 +10,10 @@ export default function Sidebar() {
             <Profile />
             <div className="mx-4">
                 <Dashboard />
-                <Dashboard_Menu />
             </div>
             <div className="mx-4">
-                <Application />
-                <Dashboard_Menu />
+                <Navigation />
             </div>
-            {/* <div className="m-3 bg-gray-400 h-[1px]"></div> */}
         </aside>
     );
 }
