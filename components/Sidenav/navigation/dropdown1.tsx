@@ -5,7 +5,7 @@ return (
     <nav className="items-center cursor-pointer hover:text-gray-500 font-bold mt-[20px]">
         <details className="group h-auto w-auto overflow-hidden transition-all duration-300 ease-in-out">
             <summary
-                className="flex items-center text-gray-300 hover:text-gray-100 hover:bg-gray-700/75 h-[40px] rounded-md cursor-pointer">
+                className="flex items-center text-gray-400 hover:text-gray-100 hover:bg-gray-700/75 h-[40px] rounded-md cursor-pointer">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5"
                     stroke="currentColor" className="size-6 ms-4">
                     <path strokeLinecap="round" strokeLinejoin="round"
