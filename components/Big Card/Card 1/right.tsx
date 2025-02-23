@@ -4,7 +4,7 @@ return (
         <h1 className="text-gray-600">Overview</h1>
         <div className="flex justify-between my-auto">
             <div className="bg-indigo-100 rounded-xl p-6 w-1/2 me-3 text-center">
-                <p className="text-indigo-800 text-5xl font-bold trackin-[-5px]">214</p>
+                <p className="text-indigo-800 text-5xl font-bold tracking-[-5px]">214</p>
                 <p className="text-indigo-700 font-medium">New Issues</p>
             </div>
             <div className="bg-green-100 rounded-xl p-6 text-center w-1/2">
@@ -19,7 +19,7 @@ return (
             </div>
             <div className="bg-gray-100 text-gray-500/80 rounded-xl p-6 w-1/2 me-3 text-center h-full">
                 <p className="text-5xl font-bold trackin-[-5px]">4</p>
-                <p className="font-medium text-sm">Won't Fix</p>
+                <p className="font-medium text-sm">Won&apos;t Fix</p>
             </div>
             <div className="bg-gray-100 text-gray-500/80 rounded-xl p-6 w-1/2 me-3 text-center h-full">
                 <p className="text-5xl font-bold trackin-[-5px]">8</p>

@@ -7,6 +7,9 @@ export default function Card_2(){
         <div className="bg-white rounded-t-2xl p-6">
             <Card_Header />
             <Card_Body />
+            <div className="hidden">
+                <Card_Footer />
+            </div>
         </div>
     );
 }
